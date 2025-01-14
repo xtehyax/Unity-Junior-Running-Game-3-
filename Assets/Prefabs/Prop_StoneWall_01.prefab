@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8663044384907716747}
   m_Layer: 0
   m_Name: Prop_StoneWall_01
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,6 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a74c4c36d3898b41bb0780b00a8477f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &3863588014130644446
 GameObject:
   m_ObjectHideFlags: 0
