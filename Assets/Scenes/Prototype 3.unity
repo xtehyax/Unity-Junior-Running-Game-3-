@@ -453,6 +453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  leftBound: -15
 --- !u!114 &835818923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -570,7 +571,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 10
-  gravityModifier: 1
+  gravityModifier: 1.5
+  isOnGround: 1
+  gameOver: 0
 --- !u!65 &1421540799
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -590,8 +593,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 3.6895094, z: 1}
-  m_Center: {x: 0, y: 1.3447547, z: 0}
+  m_Size: {x: 1, y: 3.250332, z: 1}
+  m_Center: {x: 0, y: 1.5643433, z: 0}
 --- !u!54 &1421540800
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -633,7 +636,7 @@ GameObject:
   - component: {fileID: 2014335012}
   m_Layer: 9
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
